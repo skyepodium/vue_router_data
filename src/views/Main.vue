@@ -12,7 +12,7 @@
       <li @click="clickParams">
         params
       </li>
-      <router-link :to="{name: 'Params', query: {name: 'dog', age:4}}">
+      <router-link :to="{name: 'Params', params: {name: 'dog', age:4}}">
         params 선언적 방식
       </router-link>
     </ul>
